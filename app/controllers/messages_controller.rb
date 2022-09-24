@@ -2,7 +2,7 @@ class MessagesController < ApplicationController
 
     def create
         message = Message.create!(message_params)
-        render json: message, status 201
+        render json: message, status: 201
     end
 
     private

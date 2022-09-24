@@ -1,0 +1,393 @@
+* {
+    box-sizing: border-box;
+    font-family: 'Source Sans Pro', sans-serif;
+    /* font-family: 'EB Garamond', serif; */
+}
+body {
+    padding: 0;
+    margin: 0;
+}
+section {
+    background: #1C1d25;
+    box-shadow: 0em 0em 0.25em 0.25em #1C1d25;
+}
+hr {
+    color: white;
+    width: 95%;
+    box-shadow: 0em 0em 0.05em 0.05em white;
+}
+.hr-2 {
+    color: black;
+    width: 95%;
+    box-shadow: 0em 0em 0.05em 0.05em black;
+}
+.header-hr {
+    width: 50%;
+    box-shadow: 0em 0em 0.05em 0.05em white;
+}
+
+/* Header Section */
+header {
+    display: flex;
+    flex-direction: row;
+    height: 10vh;
+    width: 100%;
+    position: relative;
+    background: #1C1d25;
+    align-items: center;
+    justify-content: space-between;
+    box-shadow: 0em 0em 0.25em 0.25em #1C1d25;
+    margin: 0;
+}
+header h1 {
+    cursor: default;
+    color: white;
+    font-weight: 300;
+    font-size: 2.5em;
+    padding-left: 2%;
+    margin: 0;
+    text-shadow: 0.005em 0.01em 0.05em white;
+}
+nav {
+    cursor: default;
+    color: white;
+    text-align: right;
+    margin-right: 1%;
+}
+.phone {
+    font-size: 1.25em;
+    padding: 0;
+    margin: 0;
+    padding-top: 5%;
+}
+.address {
+    padding: 0;
+    margin: 0;
+    /* padding-top: 1%;
+    margin: 0; */
+}
+
+li {
+    list-style-type: none;
+}
+
+/* HERO SECTION */
+.hero-section {
+    background: url('../public/images/hero.jpg');
+    background-size: 100% 100%;
+    height: 100vh;
+}
+
+/* ABOUT US SECTION */
+.about-section {
+    display: flex;
+    flex-direction: column;
+    justify-items: center;
+    height: 90vh;
+    position: relative;
+    z-index: 1;
+}
+.about-section h1 {
+    cursor: default;
+    font-weight: 300;
+    font-size: 2.5em;
+    margin: 0;
+    padding: 0.2em;
+    margin-top: 1%; 
+    margin-left: 3%; 
+    color: white;
+    text-shadow: 0.005em 0.01em 0.05em white;
+}
+.about-content {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    padding: 3%;
+    gap: 20%;
+}
+
+.about-img-container{
+    height: 30em;
+    width: 30em;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    margin-top: 1em;
+    margin-left: 1em;
+    /* margin-right: 25em; */
+    
+}
+.equip-img {
+    position: relative;
+    cursor: pointer;
+    height: 15em;
+    width: 15em;
+    box-shadow: 0em 0em 0.1em 0.1em white;
+}
+.equip-img:hover {
+    opacity: 0.7;
+    box-shadow: 0em 0em 0.3em 0.3em white;
+    z-index: 1000;
+}
+
+.about-text-container {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    align-items: center;
+    color: white;
+}
+.about-text-container hr {
+    width: 75%;
+}
+
+.about-text-header {
+    font-size: 2.3em;
+    font-weight: 300;
+    width: 15em;
+    margin: 0;
+    padding: 0;
+    margin-left: 2em;
+}
+.about-text-header b {
+    font-size: 1.1em;    
+    font-weight: 500;
+    margin: 0.1em;
+}
+.about-text-header i {
+    font-size: 1.3em;
+    margin: 0.4em;
+}
+.about-text-desc {
+    font-size: 1.4em;
+    font-weight: 300;
+    margin: 1em;
+    margin-left: 3em;
+}
+.about-text-desc b {
+    font-size: 1em;
+}
+.about-text-desc i {
+    font-size: 1.3em;
+    margin: 0.05em;
+    text-shadow: 0 0 0.05em white;
+}
+
+
+/* IMAGE MODAL */
+.image-modal-container {
+    display: flex;
+    position: fixed;
+    justify-content: center;
+    background-color: rgba(0.5, 0.5, 0.5, 0.5);
+    backdrop-filter: blur(3px);
+    height: 100vh;
+    width: 100vw;
+    bottom: 0;
+    z-index: 1000;
+    /* left: 0; */
+}
+.img-modal {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin: 2em;
+
+}
+.enlarged-img {
+    height: 50em;
+    width: 50em;
+    overflow: auto;
+    box-shadow: 0em 0em 0.175em 0.175em white;
+}
+.close-modal-btn {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    border: none;
+    background: none;
+    text-align: center;
+    height: 0.5em;
+    width: 0.5em;
+    cursor: pointer;
+    text-decoration: none;
+    margin: 0;
+    padding: 0;
+    margin-bottom: 46%;
+    margin-left: 0.5%;
+    font-size: 7em;
+}
+.close-modal-btn:active {
+    height: 0.45em;
+    width: 0.45em;
+}
+.icon {
+    fill: #1C1d25;
+    margin: 0;
+    opacity: 0.75;
+}
+.icon:hover {
+    opacity: 1;
+}
+
+/* CONTACT SECTION */
+.contact-section {
+    display: flex;
+    flex-direction: column;
+    justify-items: center;
+    height: 75vh;
+    position: relative;
+    background: white;
+}
+
+.contact-section h1 {
+    cursor: default;
+    font-weight: 200;
+    font-size: 2.5em;
+    margin: 0;
+    padding: 0.2em;
+    margin-top: 1%; 
+    margin-left: 3%; 
+    color: black;
+    text-shadow: 0.005em 0.01em 0.05em black;
+}
+
+
+.contact-content {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-content: center;
+    padding: 3%;
+    text-align: center;
+    margin-right: 5%;
+    gap: 15%;
+}
+.contact-content h3 {
+    font-weight: 300;
+    font-size: 1.75em;
+    margin-left: 15%;
+    text-shadow: 0.005em 0.01em 0.05em black;
+}
+.hours {
+    display: flex;
+    flex-direction: row;
+    font-size: 1.25em;
+}
+.hours li {
+    font-weight: 300;
+    padding: 0.2em;
+}
+
+.address-section {
+    margin: 0;
+    padding: 0;
+}
+.address-section h3 {
+    font-weight: 300;
+    font-size: 1.75em;
+    padding-top: 30%;
+    margin: 0;
+    text-shadow: 0.005em 0.01em 0.05em black;
+}
+.address-section p {
+    padding: 0;
+    padding-top: 5%;
+    font-weight: 100;
+    font-size: 1.2em;
+}
+.map {
+    box-shadow: 0px 0px 0.5em 0.5em lightgrey;
+}
+.directions {
+    cursor: pointer;
+    background: #1C1d25;
+    height: 2em;
+    padding-top: 0.3em;
+    box-shadow: 0 0 0.15em #1C1d25; 
+}
+.directions a {
+    color: white;
+}
+.directions:hover {
+    background: #686e8f;
+}
+
+
+/* FORM SECTION */
+.form-section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 60vh;
+    position: relative;
+    color: white;
+}
+.form-section h1 {
+    cursor: default;
+    font-weight: 300;
+    font-size: 2.5em;
+    margin: 0;
+    padding: 0.2em;
+    /* margin-top: 1%; 
+    margin-left: 3%; */
+    text-shadow: 0.005em 0.01em 0.05em white;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 1.5em;
+    gap: 1em;
+    height: 25em;
+    width: 25em;
+    border: 3px double white;
+}
+.form-hr {
+    color: white;
+    width: 25%;
+    box-shadow: 0em 0em 0.05em 0.05em white;
+}
+
+form input {
+    text-align: center;
+    height: 2em;
+    width: 25em;
+}
+form input:focus {
+    outline: none;
+}
+form input:focus::placeholder {
+    color: transparent;
+}
+
+form textarea {
+    text-align: center;
+    resize: none;
+    height: 8em;
+    width: 25em;
+    padding: 0.5em;
+}
+form textarea:focus::placeholder {
+    color: transparent;
+}
+form textarea:focus {
+    outline: none;
+    text-align: left;
+}
+
+form button {
+    font-size: 1em;
+    cursor: pointer;
+    border: none;
+    background: white;
+    height: 2em;
+    width: 5em;
+}
+form button:hover {
+    background: #686e8f;
+    color: white;
+}
