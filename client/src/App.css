@@ -1,3 +1,4 @@
+
 * {
     box-sizing: border-box;
     font-family: 'Source Sans Pro', sans-serif;
@@ -247,13 +248,13 @@ li {
 .contact-section h1 {
     cursor: default;
     font-weight: 200;
-    font-size: 2.5em;
+    font-size: 2.5rem;
     margin: 0;
     padding: 0.2em;
     margin-top: 1%; 
     margin-left: 3%; 
     color: black;
-    text-shadow: 0.005em 0.01em 0.05em black;
+    text-shadow: 0.005rem 0.01rem 0.05rem black;
 }
 
 
@@ -271,16 +272,16 @@ li {
     font-weight: 300;
     font-size: 1.75em;
     margin-left: 15%;
-    text-shadow: 0.005em 0.01em 0.05em black;
+    text-shadow: 0.005rem 0.01rem 0.05rem black;
 }
 .hours {
     display: flex;
     flex-direction: row;
-    font-size: 1.25em;
+    font-size: 1.25rem;
 }
 .hours li {
     font-weight: 300;
-    padding: 0.2em;
+    padding: 0.2rem;
 }
 
 .address-section {
@@ -289,22 +290,23 @@ li {
 }
 .address-section h3 {
     font-weight: 300;
-    font-size: 1.75em;
+    font-size: 1.75rem;
     padding-top: 30%;
     margin: 0;
-    text-shadow: 0.005em 0.01em 0.05em black;
+    text-shadow: 0.005rem 0.01rem 0.05rem black;
 }
 .address-section p {
     padding: 0;
     padding-top: 5%;
     font-weight: 100;
-    font-size: 1.2em;
+    font-size: 1.2rem;
 }
 
 .map {
-    border: 0;
-    height: 25em;
-    width: 25em;
+    border: none;
+    margin: 0;
+    height: 25rem;
+    width: 25rem;
     box-shadow: 0px 0px 0.5em 0.5em lightgrey;
 }
 .directions {
