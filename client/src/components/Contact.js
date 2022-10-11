@@ -50,9 +50,7 @@ function Contact() {
                     </div>
                 </div>
 
-                <div className="map">
-                    <GoogleMap />
-                </div>
+                <GoogleMap />
             </div>
 
 
