@@ -110,6 +110,13 @@ li {
     gap: 20%;
 }
 
+@media screen and (max-width: 1189px) {
+    .about-content {
+        padding: 5%;
+        gap: 25%;
+    }
+}
+
 .about-img-container{
     height: 30em;
     width: 30em;
