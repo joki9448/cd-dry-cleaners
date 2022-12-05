@@ -161,7 +161,8 @@ li {
     width: 15em;
     margin: 0 auto;
     padding: 0;
-    margin-left: 2em;
+    text-align: center;
+    /* margin-left: 2em; */
 }
 .about-text-header b {
     font-size: 1.1em;    
