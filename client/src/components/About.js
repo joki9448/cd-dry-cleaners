@@ -31,7 +31,7 @@ function About() {
                     <p className="about-text-header">
                         #<b>1</b> Most Trusted Dry Cleaners in Union City <i>- Since 1986 -</i>
                     </p>
-                    <hr></hr>
+                    <hr style={{marginTop: "2%"}}></hr>
                     <p className="about-text-desc">
                         For over <i>35 years</i>, we have been providing the highest quality <i>dry cleaning, reparation, and alteration</i> services in Union City, New Jersey.
                     </p>
