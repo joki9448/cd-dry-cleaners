@@ -133,7 +133,7 @@ li {
 }
 .equip-img {
     position: relative;
-    cursor: pointer;
+    cursor: zoom-in;
     height: 15em;
     width: 15em;
     box-shadow: 0em 0em 0.1em 0.1em white;
@@ -207,7 +207,7 @@ li {
     flex-direction: column;
     justify-content: center;
     margin: 2em;
-
+    cursor: zoom-out;
 }
 .enlarged-img {
     height: 50em;
