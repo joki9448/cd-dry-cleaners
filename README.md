@@ -1,25 +1,12 @@
-# README
+Freelance web project for a small dry-cleaning business located in Union City, New Jersey. Client requested a basic landing page to display a few photos, relevant business information, and a basic contact form.
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+www.cddrycleaners.com
 
-Things you may want to cover:
+Languages & Frameworks used:
+-React.js
+-Ruby on Rails
+-PostgreSQL database
 
-* Ruby version
+Application deployed using Heroku.
 
-* System dependencies
 
-* Configuration
-
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
-# cd-dry-cleaners
